@@ -169,7 +169,8 @@
             color: #005b99;
         }
         .logo {
-            width: 200px; /* Largura ideal do logo */
+            width: 100px; /* Largura ideal do logo */
             height: auto;  /* Ajusta a altura automaticamente para manter a proporção */
+            padding: 15px;
         }
     </style>
