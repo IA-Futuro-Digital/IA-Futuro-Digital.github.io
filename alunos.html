@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorando o Futuro Digital</title>
+   
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Explorando o Futuro Digital</h1>
+    </header>
+
+    <div id="menu-container"></div>
+    <!-- Script para carregar o menu -->
+    <script>
+        fetch('menu.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('menu-container').innerHTML = data;
+            });
+    </script>
+    
+    <!-- Conteúdo principal -->
+    <div class="container">
+        <h2>
+           Alunos Participantes do Projeto
+        </h2>
+        <p>
+            <ul>
+              <li>Ana Carolina de Sousa Silva</li>
+              <li>Bruno Barral Palmeira da Silva</li>
+              <li>Daniel Cardoso da Silva</li>
+              <li>Patrick Oliveira Guimarães da Silva</li>         
+              <li>Sara Gonçalves</li>
+            </ul>
+        </p>        
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 IA Futuro Digital. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
