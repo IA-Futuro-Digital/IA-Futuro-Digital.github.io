@@ -140,4 +140,18 @@
         p {
             text-align: justify;
         }
+        /* Estilo básico para os ícones e contato */
+        .contact-info {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .contact-item {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+
+        .contact-item i {
+            margin-right: 10px;
+            color: #005b99;
     </style>
