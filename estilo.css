@@ -173,4 +173,10 @@
             height: auto;  /* Ajusta a altura automaticamente para manter a proporção */
             padding: 15px;
         }
+
+        /* Estilo básico para o banner */
+        .banner {
+            width: 100%; /* Ocupa toda a largura da página */
+            height: auto; /* Ajusta a altura proporcionalmente */
+        }
     </style>
