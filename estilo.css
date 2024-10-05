@@ -136,4 +136,8 @@
             padding: 15px;
             margin-top: 20px;
         }
+        /* Estilo para justificar o texto */
+        p {
+            text-align: justify;
+        }
     </style>
