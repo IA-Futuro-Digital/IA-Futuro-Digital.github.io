@@ -14,51 +14,15 @@
         <h1>Explorando o Futuro Digital</h1>
     </header>
 
-    <!-- Menu de navegação -->
-    <nav>
-        <ul>
-            <li>
-                <!-- Menu suspenso -->
-                <div class="menu">
-                    <button><a href="https://ia-futuro-digital.github.io/">Início</a></button>                    
-                </div>
-            </li>
-            <li>
-                <!-- Menu suspenso -->
-                <div class="menu">
-                    <button>Quem Somos</button>
-                    <div class="menu-content">
-                        <a href="historico.html">Histórico</a>
-                        <a href="objetivo.html">Objetivo</a>    
-                        <a href="pesquisadores.html">Pesquisadores</a>
-                        <a href="alunos.html">Alunos</a>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <!-- Menu suspenso -->
-                <div class="menu">
-                    <button><a href="https://ia-futuro-digital.github.io/">Downloads</a></button>    
-                    <div class="menu-content">
-                        <a href="material.html">Material</a>
-                        <a href="ferramentas.html">Ferramentas</a>                            
-                    </div>
-                </div>
-            </li>
-            <li>
-                <!-- Menu suspenso -->
-                <div class="menu">
-                    <button><a href="noticias.html">Noticias</a></button>                    
-                </div>
-            </li>
-            <li>
-                <!-- Menu suspenso -->
-                <div class="menu">
-                    <button><a href="contato.html">Contato</a></button>                    
-                </div>
-            </li>            
-        </ul>
-    </nav>
+    <div id="menu-container"></div>
+    <!-- Script para carregar o menu -->
+    <script>
+        fetch('menu.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('menu-container').innerHTML = data;
+            });
+    </script>
     
     <!-- Conteúdo principal -->
     <div class="container">
