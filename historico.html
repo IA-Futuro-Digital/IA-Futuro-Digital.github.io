@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorando o Futuro Digital</title>
+   
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Explorando o Futuro Digital</h1>
+    </header>
+
+    <div id="menu-container"></div>
+    <!-- Script para carregar o menu -->
+    <script>
+        fetch('menu.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('menu-container').innerHTML = data;
+            });
+    </script>
+    
+    <!-- Conteúdo principal -->
+    <div class="container">
+        <h2>Hisórico</h2>
+        <p>
+            O projeto de pesquisa intitulado "Explorando o Futuro Digital: Predição de Popularidade e Metrologia de Redes por Meio de Inteligência Artificial, 
+            Redes Neurais, Processamento de Linguagem Natural e Aprendizado de Máquina" teve seu início em janeiro de 2024, como uma iniciativa pioneira voltada 
+          para o desenvolvimento de métodos avançados de previsão de popularidade de conteúdo online e metrologia de redes digitais. A proposta surge da crescente
+          necessidade de compreender e otimizar a forma como os conteúdos são consumidos e disseminados nas redes digitais, considerando a explosão de informações
+          na internet e o crescimento exponencial de dispositivos conectados.
+        </p>
+
+        <p>
+          Nos primeiros meses, o projeto foi conduzido por um professor responsável que se dedicou à formulação dos objetivos principais e à definição de uma base teórica sólida.
+          O foco inicial foi estabelecer um quadro teórico e metodológico robusto, integrando conceitos avançados de Inteligência Artificial, Redes Neurais, Processamento de 
+          Linguagem Natural e Aprendizado de Máquina para a análise e predição da popularidade de conteúdo. Essa fase envolveu uma revisão abrangente da literatura e o desenvolvimento
+          de abordagens inovadoras que permitissem medir e otimizar o desempenho de redes digitais, visto que o aumento da complexidade dessas redes exige métodos cada vez mais sofisticados de análise.
+        </p>
+      <p>
+        No segundo semestre de 2024, o projeto ganhou força com a integração de pelo menos 10 alunos de graduação, os quais trouxeram um novo fôlego para a pesquisa, contribuindo
+        ativamente para o desenvolvimento e execução das etapas do projeto. A entrada destes alunos permitiu a expansão do escopo da pesquisa, enriquecendo as atividades de coleta 
+        de dados, modelagem, experimentação e análise dos resultados. Com isso, a pesquisa passou a envolver uma equipe multidisciplinar focada na investigação de modelos preditivos
+        e métricas inovadoras que possam ser aplicadas para compreender a dinâmica da popularidade de conteúdo e o comportamento de redes digitais.
+      </p>
+      <p>
+        A primeira entrega significativa do projeto ocorreu no segundo semestre de 2024, com a apresentação de um artigo no renomado "2024 IEEE Symposium on Computers and Communications 
+        (ISCC)." Esta apresentação marcou um importante avanço na pesquisa, demonstrando resultados preliminares e comprovando a relevância do estudo. A participação no simpósio possibilitou
+        a troca de conhecimentos com especialistas da área e abriu caminho para futuras parcerias acadêmicas e científicas, reforçando o compromisso do projeto em contribuir para a evolução 
+        do campo da Inteligência Artificial e suas aplicações em redes digitais.
+      </p>
+      <p>
+        A expectativa é que, ao longo dos próximos anos, o projeto continue a gerar insights significativos e avanços metodológicos, promovendo colaborações com outras instituições tecnológicas
+        e científicas. Os resultados da pesquisa, incluindo a criação de modelos preditivos, métricas de redes e estudos aprofundados sobre a disseminação de conteúdo, serão documentados
+        em artigos científicos e divulgados em conferências e publicações especializadas. Dessa forma, espera-se não apenas alcançar aplicações práticas que beneficiem produtores de conteúdo
+        e profissionais de marketing digital, mas também contribuir para o avanço do conhecimento científico nas áreas de Inteligência Artificial, Redes Neurais, Processamento de Linguagem Natural
+        e Aprendizado de Máquina.
+      </p>       
+                
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 IA Futuro Digital. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
