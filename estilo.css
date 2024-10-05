@@ -100,6 +100,10 @@
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+        .container_header {
+            display: flex; /* Define o layout como flexbox */
+            justify-content: space-between; /* Espaça os elementos igualmente */
+        }
 
         /* Estilo das caixas */
         .box {
