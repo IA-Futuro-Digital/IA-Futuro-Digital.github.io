@@ -13,6 +13,7 @@
 
         /* Cabeçalho */
         header {
+            display: flex; /* Usando flexbox para alinhar itens lado a lado */
             background-color: #003366;
             color: #fff;
             padding: 15px 20px;
