@@ -14,7 +14,15 @@
     <header>
         <h1>Explorando o Futuro Digital</h1>
     </header>
-
+    <div id="menu-container"></div>
+    <!-- Script para carregar o menu -->
+    <script>
+        fetch('menu.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('menu-container').innerHTML = data;
+            });
+    </script>
    
     
     <!-- Conteúdo principal -->
